@@ -1,0 +1,1209 @@
+/*
+Theme Name: WordPress-Assignment-1-Simple
+
+Author:Sagar Shah
+Version: 1.0.0
+*/
+@import url(http://fonts.googleapis.com/css?family=Tahoma);
+
+body {
+    text-align: center;   
+    margin: 0px;
+    background-repeat: repeat-x;
+}
+
+#wrapper {
+    display: block;
+    margin: 0px auto;
+}
+.based-slider{
+width:100%;
+    background-color: #8A8B8F;
+    padding: 20px 0;
+}
+.sub-page {
+    height: 100%;
+    background: #fff;
+    border: 2px solid #EBEBEB;
+}
+
+#header {
+    height: 115px;
+    background-image: url(images/header-bg.jpg);
+    width: 72%;
+    margin: 0 auto;
+}
+
+.slider {
+    margin: 0 auto;
+    background: #fff;
+    height: 300px;
+    padding: 10px;
+    width: 75%;
+}
+
+.slider-box {
+    width: 100%;
+    background: beige;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.slider-active, .slider-unactive {
+    background-image: url(images/slider-pages.png);
+}
+
+.slider-next {
+    background-image: url(images/slider-bottom-pagination.png);
+    cursor: pointer;
+}
+
+.slider-prev {
+    background-image: url(images/slider-top-pagination.png);
+    cursor: pointer;
+}
+
+.slider-prev:HOVER {
+    background-image: url(images/slider-top-pagination-hov.png);
+    cursor: pointer;
+}
+
+.slider-next:HOVER {
+    background-image: url(images/slider-bottom-pagination-hov.png);
+    cursor: pointer;
+}
+
+.slider-data {
+    width: 300px;
+    height: 100%;
+    background: black;
+    float: right;
+    opacity: 0.5;
+    padding: 40px;
+    margin-right: 51px;
+}
+
+.slider-hendle {
+    width: 50px;
+    height: 100%;
+    background: black;
+    float: right;
+    opacity: 0.5;
+    margin-left: 1px;
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+}
+
+.go-prev {
+    height: 10%;
+    margin-top: 10px;
+}
+
+.pagepoint {
+    cursor: pointer;
+}
+
+.go-next {
+    height: 10%;
+}
+
+.view-position {
+    height: 77%;
+    padding: 16px
+}
+
+.post-title {
+    color: #fff;
+    font-family: georgia;
+    font-size: 24px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.post-description {
+    color: #ccc;
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropcap {
+    float: left;
+    font-size: 80px;
+    padding-right: 7px;
+    line-height: 72px;
+}
+
+.slider-new {
+    background: #EBEBEB;
+    height: 230px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #999;
+    font-family: Tahoma;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+li.postnew {
+    background: url(images/footer-bullet.jpg)0 7px;
+    width: 100%;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+	margin-bottom: 5px;
+}
+
+li.postnew:hover {
+    background-image: url(images/footer-bullethover.jpg);
+}
+
+#header h1 {
+    margin: 0px;
+}
+
+.main-logo {
+    width: 30%;
+    float: left;
+}
+
+.footer-logo {
+    width: 30%;
+    float: right;
+}
+
+.main-logo img {
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+}
+
+.footer-logo img {
+    margin-top: 15px;
+    width: 100%;
+    height: 70px;
+}
+
+.menu-nav {
+    text-align: right;
+    width: 70%;
+    float: right;
+    margin-top: 40px
+}
+
+.menu-nav-footer {
+    text-align: left;
+    width: 70%;
+    float: left;
+    margin-top: 40px
+}
+
+#content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#sidebar {
+    width: 23%;
+    float: right;
+}
+
+#delimiter {
+    clear: both;
+}
+
+#widget {
+    background: #F8F8F8;
+    width: 100%;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.widgetbox {
+    width: 72%;
+    margin: 0 auto !important;
+}
+
+.widget-title {
+    text-align: left;
+    font-size: 15px;
+    color: #888;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+#widget #page-nav ul {
+    text-align: left;
+    border-top: 1px;
+    border-top-color: #999;
+    border-top-style: dashed;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #888;
+    padding-left: 0px;
+    font-family: Tahoma;
+    text-transform: none;
+}
+
+#widget #page-nav .textwidget {
+    text-align: left;
+    text-transform: none;
+    border-top: 1px;
+    border-top-color: #999;
+    border-top-style: dashed;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.pages {
+    width: 27%;
+    float: left;
+}
+
+.sub-page {
+    width: 73%;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.wp-pages {
+    text-transform: uppercase;
+    padding-left: 0px;
+    color: #993408;
+    font-family: georgia;
+    font-size: 17px;
+    list-style: none;
+    text-align: left;
+}
+
+.child-page-tile {
+    color: #000;
+    font-family: georgia;
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    text-decoration: none;
+    float: left;
+}
+
+.child-page-tile:hover {
+    color: #000;
+    font-family: georgia;
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    text-decoration: none;
+}
+
+.child-page-content {
+    clear: both;
+    color: #333;
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    word-break: break-all;
+}
+
+.page-active, .pages-title:HOVER {
+    cursor: pointer;
+    color: #fff;
+    background-image: url(images/sliderarrow.png);
+    background-size: 100% 100%;
+
+}
+
+ul.sociallink li a {
+    background-image: url(images/social-icons.jpg);
+    padding: 4px;
+    width: 100%;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li .facebook {
+    background:url(images/social-icons.jpg) 0 -116px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li .facebook:HOVER {
+    color: #4A669F !important;
+    background-position: 0px 0px;
+}
+
+ul.sociallink li .twitter {
+
+background:url(images/social-icons.jpg) 0 -145px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li .twitter:HOVER {
+    color: #31CDFE !important;
+   background:url(images/social-icons.jpg) 0 -29px;
+    background-repeat: no-repeat;
+
+}
+
+
+ul.sociallink li .linkedin {
+    background:url(images/social-icons.jpg) 0 -174px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li .linkedin:HOVER {
+    color: #006E9E !important;
+    background:url(images/social-icons.jpg) 0 -58px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li .rss {
+
+
+    background:url(images/social-icons.jpg) 0 -203px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li .rss:HOVER {
+    color: #FF9808 !important;
+    background:url(images/social-icons.jpg) 0 -87px;
+    background-repeat: no-repeat;
+}
+
+ul.sociallink li {
+    margin-bottom: 10px;
+}
+
+.child-images {
+    width: 100%;
+    height: 101px;
+}
+
+.wp-pages li {
+    padding-left: 20px;
+    margin: 20px 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#widget #page-nav ul li {
+    display: block;
+}
+
+#widget #page-nav ul li a {
+    font-size: 13px;
+    color: #888;
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#widget #page-nav ul li a:HOVER {
+    color: #993408;
+}
+
+#footer {
+    height: 100px;
+    background-image: url(images/footer-bg.jpg);
+    width: 72%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+/* Starter CSS for Menu */
+#cssmenufooter {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+}
+
+#cssmenufooter ul, #cssmenufooter li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cssmenufooter ul {
+    position: relative;
+    z-index: 597;
+}
+
+#cssmenufooter ul li {
+    float: left;
+    min-height: 1px;
+    vertical-align: middle;
+}
+
+#cssmenufooter ul li.hover, #cssmenufooter ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+#cssmenufooter ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+
+#cssmenufooter ul ul li {
+    float: none;
+    background: #fff;
+    padding: 8px;
+}
+
+#cssmenufooter ul ul ul {
+    top: 0;
+    left: 180px;
+    width: 190px;
+}
+
+#cssmenufooter ul li:hover > ul {
+    visibility: visible;
+}
+
+#cssmenufooter ul ul {
+    padding: 10px;
+    bottom: 0;
+    left: -50px;
+}
+
+#cssmenufooter ul ul {
+    margin-top: 0;
+}
+
+#cssmenufooter ul ul li {
+    font-weight: normal;
+}
+
+#cssmenufooter a {
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+/* Custom CSS Styles */
+#cssmenufooter {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+#cssmenufooter > ul {
+    text-align: center;
+    color: #666;
+    display: inline-block;
+}
+
+#cssmenufooter ul ul {
+    text-transform: none;
+    min-width: 190px;
+}
+
+#cssmenufooter ul ul a {
+    font-size: 13px;
+    color: #666;
+    font-family: Tahoma;
+}
+
+#cssmenufooter ul ul li {
+    position: relative;
+}
+
+#cssmenufooter ul ul li:first-child > a {
+    padding: 5px;
+}
+
+#cssmenufooter ul ul li:hover > a {
+    color: #993408;
+}
+
+#cssmenufooter ul ul li:last-child > a {
+    background-clip: padding-box;
+}
+
+#cssmenufooter ul ul li:last-child:hover > a {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenufooter ul ul li.has-sub > a:after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -8px;
+}
+
+#cssmenufooter ul li:hover > a, #cssmenufooter ul li.active > a {
+    color: #993408;
+}
+
+#cssmenufooter ul li.last ul {
+    left: auto;
+    right: 0;
+}
+
+#cssmenufooter ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+}
+
+#cssmenufooter a {
+    color: #CBCBCB;
+    padding: 0 10px;
+}
+
+#cssmenufooter > ul > li > a {
+    font-size: 13px;
+    color: #666;
+    font-family: Tahoma;
+}
+
+#cssmenu {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+}
+
+#cssmenu ul, #cssmenu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cssmenu ul {
+    position: relative;
+    z-index: 597;
+}
+
+#cssmenu ul li {
+    float: left;
+    min-height: 1px;
+    vertical-align: middle;
+}
+
+#cssmenu ul li.hover, #cssmenu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+#cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+
+}
+
+#cssmenu ul ul li {
+    float: none;
+    background: #fff;
+    padding: 8px;
+    box-shadow: 0px 0px 1px #000;
+}
+
+#cssmenu ul ul ul {
+    top: 0;
+    left: 161px;
+    width: 190px;
+}
+
+#cssmenu ul li:hover > ul {
+    visibility: visible;
+}
+
+#cssmenu ul ul {
+    padding: 10px;
+    bottom: 0;
+    left: -50px;
+
+}
+
+#cssmenu ul ul {
+    margin-top: 0;
+}
+
+#cssmenu ul ul li {
+    font-weight: normal;
+}
+
+#cssmenu a {
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+#cssmenu {
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+#cssmenu > ul {
+    text-align: center;
+    color: #666;
+	display: inline-block;
+}
+
+#cssmenu ul ul {
+    text-transform: none;
+    min-width: 190px;
+}
+
+#cssmenu ul ul a {
+    font-size: 15px;
+    color: #666;
+    font-family: Tahoma;
+}
+
+#cssmenu ul ul li {
+    position: relative;
+}
+
+#cssmenu ul ul li:hover > a {
+    color: #993408;
+}
+
+#cssmenu ul ul li:last-child > a {
+    background-clip: padding-box;
+}
+
+#cssmenu ul ul li:last-child:hover > a {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenu ul ul li.has-sub > a:after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -8px;
+}
+
+#cssmenu ul li:hover > a, #cssmenu ul li.active > a {
+    color: #993408;
+}
+
+#cssmenu ul li.last ul {
+    left: auto;
+    right: 0;
+}
+
+#cssmenu ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+}
+
+#cssmenu a {
+    color: #CBCBCB;
+    padding: 0 10px;
+}
+
+#cssmenu > ul > li > a {
+    font-size: 15px;
+    color: #666;
+    font-family: Tahoma;
+}
+
+#nav-trigger {
+
+    display: none;
+}
+
+@media only screen
+and (max-width: 850px) {
+    #widget {
+        margin-top: 50px;
+    }
+
+    /*	.page-active{
+    background-image: url(images/sidebar-title-bg.png);
+    }*/
+    .navbar-toggle {
+        display: block !important;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    .main-logo {
+        width: 100%;
+    }
+
+    .main-logo img, .footer-logo img {
+        width: 60%;
+        margin-bottom: 2px;
+    }
+
+    .footer-logo {
+        float: none;
+        width: 100%;
+    }
+
+    .menu-nav-footer {
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #footer {
+        width: 100%;
+    }
+
+    .menu-nav-footer {
+        text-align: center;
+    }
+
+    .collapsed {
+        background: rgb(165, 84, 23) !important;
+
+        float: left !important;
+        z-index: 2;
+        margin-left: 8px;
+    }
+
+    .navbar-toggle .icon-bar {
+        border: 1px solid #fff;
+    }
+
+    #cssmenu {
+        display: none;
+        position: fixed;
+        top: 40px;
+        left: 0px;
+        width: 244px;
+        background: rgb(165, 84, 23);
+        z-index: 10;
+        padding: 10px;
+    }
+
+    #cssmenu ul {
+        padding-left: 0px;
+        text-align: left;
+        text-decoration: none;
+        display: block;
+    }
+
+    #cssmenu ul li {
+        text-decoration: none;
+        color: #fff;
+        float: none;
+    }
+
+    #cssmenu > ul > li > a {
+        background: rgb(179, 127, 87);
+        margin: 1px;
+        padding: 5px 13px;
+        line-height: 1.5em;
+        font-weight: normal;
+    }
+
+    #cssmenu ul ul {
+        padding: 0px;
+        background: rgb(179, 127, 87);
+        margin-top: -2px;
+        width: 222px;
+        padding-bottom: 1px;
+        margin-left: 1px;
+        text-decoration: none;
+        color: #fff;
+        margin-right: 1px;
+    }
+
+    #cssmenu ul ul a {
+        font-size: 15px;
+        line-height: 1.5em;
+        color: #000;
+        font-family: Tahoma;
+        padding: 5px 10px;
+        margin: 1px 4px;
+        background: rgb(246, 247, 251);
+    }
+
+    #cssmenu > ul > li > a {
+        background: rgb(179, 127, 87);
+        margin: 1px;
+        padding: 5px 13px;
+        color: #fff;
+    }
+
+    #cssmenu ul ul {
+        visibility: inherit;
+        position: inherit;
+    }
+
+    #cssmenu ul ul ul {
+        padding-left: 0px;
+        background: rgb(246, 247, 251);
+        margin-top: -4px;
+        width: 216px;
+        text-decoration: none;
+        color: #fff;
+        margin-left: -1px;
+        margin-right: 4px;
+        left: 0px;
+    }
+
+    #cssmenu ul ul ul li {
+        padding-left: 10px;
+        box-shadow: 0px 0px 0px #000;
+    }
+
+    #cssmenu ul li:hover > ul {
+        left: 0px;
+    }
+
+    #cssmenu ul ul ul a {
+        line-height: 1.5em;
+        font-size: 15px;
+        color: #000;
+        font-family: Tahoma;
+        padding: 5px 10px;
+        margin: 1px 4px;
+        padding-left: 10px;
+        background: rgb(246, 247, 251);
+    }
+
+    #cssmenu ul ul li {
+        float: none;
+        background: #fff;
+        padding: 2px;
+        box-shadow: 0px 0px 0px #000;
+    }
+
+    #cssmenu ul ul ul:before {
+        content: " > ";
+        position: absolute;
+        color: rgb(165, 84, 23);
+        font-family: monospace;
+        transform: rotateX 20px;
+        transform: rotate(17deg);
+        -webkit-transform: rotate(90deg);
+        top: -226px;
+        padding-left: 403px;
+        float: right;
+        font-weight: bold;
+    }
+
+    .slider-data {
+        width: 100%;
+        height: 40%;
+        padding-top: 10px;
+        margin-right: 0px;
+    }
+
+    .view-position a {
+        display: block;
+        float: left;
+        margin: 0px 5px !important;
+    }
+
+    #cssmenu ul ul ul a:before {
+        content: ">";
+        padding-right: 9px;
+        font-family: monospace;
+        color: rgb(165, 84, 23);
+        font-weight: bold;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-trigger + label, .site-wrap {
+        transition: left 0.2s;
+    }
+
+    .nav-trigger:checked + label {
+        left: 215px;
+    }
+
+    .nav-trigger:checked ~ .site-wrap {
+        left: 200px;
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .site-wrap {
+        padding: 4em;
+        background-image: linear-gradient(135deg,
+        rgb(254, 255, 255) 0%,
+        rgb(221, 241, 249) 35%,
+        rgb(160, 216, 239) 100%);
+        background-size: 200%;
+    }
+
+    .site-wrap {
+        min-width: 100%;
+        min-height: 100%;
+        background-color: #fff;
+        position: relative;
+        top: 0;
+        bottom: 100%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .slider-hendle {
+        width: 100%;
+        height: 50px;
+        margin-top: 139px;
+        margin-top: 230px;
+        position: relative;
+        margin-bottom: -144px;
+    }
+
+    .go-prev {
+        padding-top: 10px;
+        float: left;
+        margin-top: 0;
+        transform: rotate(-90deg);
+        height: 50px;
+        width: 10%;
+
+    }
+
+    .view-position {
+        float: left;
+            height: 50px;
+    padding: 23px;
+        width: 80%;
+    }
+
+    .view-position img {
+        margin: 2px !important;
+    }
+
+    .go-next {
+        float: left;
+            padding-top: 30px;
+        transform: rotate(270deg);
+        height: 50px;
+        width: 10%;
+    }
+
+    #content,.slider {
+        width: 80%;
+    }
+
+    .child-page-tile, .child-page-tile:hover {
+        font-size: 12px;
+    }
+
+    .child-page-content, .child-page-content:hover {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen
+and (max-width: 1100px) {
+    #header, #footer {
+        width: 100%;
+    }
+
+    .pages {
+        width: 100%;
+    }
+
+    .wp-pages li {
+        float: left;
+        padding: 5px 10px;
+        margin: 1px;
+    }
+
+    .wp-pages li:hover {
+        cursor: pointer;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+    #widget {
+        margin-top: 50px;
+    }
+
+    .wp-pages .page-active {
+        cursor: pointer;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+    .sub-page {
+        width: 100%;
+        display: flex;
+        padding-right: 15px;
+    }
+}
+
+@media only screen
+and (max-width: 1225px) {
+
+    .wp-pages li {
+        padding-left: 15px;
+
+    }
+
+    .pages-title {
+
+        font-size: 12px;
+    }
+
+    .child-page-content {
+        padding-top: 10px;
+    }
+}
+
+@media only screen
+and (max-width: 700px) {
+    #widget {
+        margin-top: 0px;
+    }
+
+    #content,.slider  {
+        width: 90%;
+    }
+.col-md-4{
+width: 100% !important;	
+}
+    .slider-new {
+        background: #EBEBEB;
+        height: inherit;
+        margin-bottom: 0px;
+        margin-top: 40px;
+        display: block;
+
+    }
+
+    .pages {
+        width: 100%;
+        height: inherit;
+        float: none;
+    }
+
+    .child-page-tile:after {
+        clear: both;
+    }
+
+    .wp-pages li {
+        float: none;
+    }
+
+    .sub-page {
+        display: block;
+        height: inherit;
+        margin-bottom: 20px;
+    }
+
+    .child-page-tile, .child-page-tile:hover {
+        font-size: 15px !important;
+    }
+
+    .child-page-content, .child-page-content:hover {
+        font-size: 13px !important;
+        margin-top: 23px;
+    }
+}
+
+@media only screen
+and (min-device-width: 500px)
+and (max-device-width: 800px) {
+    div#page-nav {
+        width: 50%;
+        float: left;
+    }
+
+    .widgetbox {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .child-page-tile, .child-page-tile:hover {
+        font-size: 13px;
+    }
+
+    .child-page-content, .child-page-content:hover {
+        font-size: 12px;
+    }
+
+    #content,.slider{
+        width: 85%;
+    }
+
+}
+
+.view-position a {
+    display: block;
+    margin: 120% 2px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 13px;
+    width: 10px;
+    height: 10px;
+    font-size: 0px;
+}
+
+.view-position .nav-buttons {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.view-position .activeSlide {
+    background-color: #993408;
+    color: #993408;
+}
+
+.slider-show {
+    width: 100% !important;
+}
+.col-md-4{
+width: 33.33%;	
+}
+#post-title{	
+	    margin: 0;
+     background-color: #eee;
+    padding: 10px;
+    font-family: georgia;
+    font-style: oblique;
+        width: 100%;
+    margin: 0 auto;
+}
+#postmain{
+background: #fff;	
+}
