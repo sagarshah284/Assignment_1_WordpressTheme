@@ -1,4 +1,4 @@
-# Assignment_1_WordPressTheme #
+# rtCampAssignment_1_WordPressTheme #
 
   Version:  1.0.0
 
@@ -31,7 +31,7 @@
 ### Activate the theme ###
 
 1. Go to **Appearance > Themes** in the WordPress menu
-
+-
 2. Hover over the theme thumbnail and press the Activate button
 
 ## Custom Menu ##
