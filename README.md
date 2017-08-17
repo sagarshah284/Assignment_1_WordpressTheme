@@ -1,8 +1,8 @@
-# AScreative #
+# Assignment_1_WordPressTheme #
 
   Version:  1.0.0
 
-* **Author:** AKASH SONI
+* **Author:** Sagar Shah
 
 * **License:** [GPL v2 or later] (http://www.gnu.org/licenses/gpl-2.0.html)
 
@@ -15,7 +15,7 @@
 
 
 1. Download Theme.
-   [Download] (https://github.com/akashsonic/ascreative/archive/master.zip)
+   [Download] (https://github.com/sagarshah284/Assignment_1_WordPressTheme)
 
 2. Go to **Appearance > Themes** in the WordPress Dashboard
 
@@ -23,7 +23,7 @@
 
 4. Click on the Upload link
 
-5. Select the ascreative-master.zip file
+5. Select the Assignment_1_WordpressTheme-master.zip file
 
 6. Click Install Now
 
