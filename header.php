@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>AS creative</title>
+	<title>Sagar Shah</title>
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/lib/css/bootstrap.min.css">
 	<script src="<?php echo get_template_directory_uri(); ?>/lib/js/jquery.min.js"></script>
